@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-repo/pythonTesting.git'
+                git branch: 'envSetup', url: 'https://github.com/JITHINPDEV/pytest.git'
             }
         }
 
